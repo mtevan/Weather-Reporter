@@ -1,0 +1,74 @@
+/* src/App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Box-sizing for consistent padding */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, #2c3e50, #34495e); /* Futuristic gradient */
+  color: #ffffff; /* Default text color */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+
+
+/* src/App.css */
+.app-container {
+  flex: 1; /* Take up the remaining space */
+  display: flex;
+  flex-direction: column; /* Stack components vertically */
+  justify-content: flex-start; /* Start items from the top */
+  align-items: center; /* Center items horizontally */
+  padding: 80px 20px 60px; /* Add padding for header and footer */
+  text-align: center;
+  position: relative; /* Ensure positioning context for child elements */
+  height: 100%; 
+  width: 100%
+}
+
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2rem; /* Smaller heading for mobile */
+  }
+
+  .unit-toggle {
+      padding: 8px 16px; /* Adjust padding for mobile */
+  }
+
+  .app-container {
+      padding: 100px 20px 80px; /* More padding for mobile header and footer */
+  }
+
+  .unit-toggle {
+    padding: 10px 20px; /* Match the padding of the search button */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #00ffcc; /* Same background color */
+    color: #111; /* Text color */
+    cursor: pointer;
+    margin-left: 10px; /* Space between search button and toggle */
+  }
+  
+  .unit-toggle:hover {
+    background-color: #00e0b3; /* Match hover effect */
+  }
+}

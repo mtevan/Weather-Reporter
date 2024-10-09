@@ -1,0 +1,28 @@
+/* src/styles/LoadingSpinner.css */
+.loading-spinner {
+  position: fixed; /* Use fixed positioning to center in the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for its own size */
+  text-align: center; /* Center text below spinner */
+  z-index: 2000; /* Ensure it overlays above other content */
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3); /* Border color */
+  border-top: 4px solid #fff; /* Top color for animation */
+  border-radius: 50%; /* Circular shape */
+  width: 40px; /* Spinner size */
+  height: 40px; /* Spinner size */
+  animation: spin 1s linear infinite; /* Animation for spinning */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner p {
+  color: #fff; /* Text color */
+  margin-top: 10px; /* Space between spinner and text */
+}

@@ -1,0 +1,48 @@
+/* src/styles/SearchBar.css */
+
+.search-bar {
+    margin-top: 30px;  
+    display: flex; /* Use flexbox to arrange children in a row */
+    justify-content: space-between; /* Optional: aligns items at the ends */
+    width: 100%; /* Ensure it takes full width */
+    max-width: 600px; /* Limit max width */
+}
+
+.search-bar input {
+    flex: 1; /* Allow the input to grow and fill available space */
+    padding: 10px;
+    border: none;
+    border-radius: 8px 0 0 8px; /* Rounded left corners */
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 8px 8px 0; /* Rounded right corners */
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color:white;
+    color: black;
+}
+
+/* src/styles/App.css or src/styles/SearchBar.css */
+
+.toggle-button {
+  padding: 10px 20px; /* Match the padding of the search button */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  background-color: black; /* Same background color */
+  color: white; /* Text color */
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.toggle-button:hover {
+  background-color: white;
+  color: black;
+}

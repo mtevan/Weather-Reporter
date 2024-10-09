@@ -1,0 +1,27 @@
+/* src/styles/Header.css */
+.app-header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.app-header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2rem; /* Adjust font size */
+    color: #fff; /* White color for text */
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 10;
+    bottom: 0;
+
+}

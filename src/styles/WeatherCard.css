@@ -1,0 +1,35 @@
+/* src/styles/WeatherCard.css */
+.weather-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+  max-width: 400px; /* Limit width */
+  width: 100%; /* Full width on mobile */
+}
+
+.weather-card:hover {
+  transform: scale(1.05);
+}
+
+.weather-card h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 1.2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .weather-card h2 {
+      font-size: 1.5rem; /* Smaller heading on mobile */
+  }
+
+  .weather-card p {
+      font-size: 1rem; /* Smaller paragraph on mobile */
+  }
+}
