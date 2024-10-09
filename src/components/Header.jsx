@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header className="app-header">
-            <a href="#"><img className="logo" src="public/ScreenShots/logo.png"/></a>
+            <a href="#"><img className="logo" src="/ScreenShots/logo.png"/></a>
             <h1>MTEverse Weather Reporter</h1>
         </header>
     );
