@@ -25,6 +25,5 @@ The MTEverse Weather App is a simple and intuitive weather application that allo
 - **React**: Frontend library for building user interfaces.
 - **Vite**: A build tool that provides a fast development experience.
 - **OpenWeatherMap API**: Public API used to fetch weather data.
-- **CSS**: Styling for the application.# Weather-Reporter
-# Weather-Reporter
-# Weather-Reporter
+- **CSS**: Styling for the application.
+
